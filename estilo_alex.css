@@ -1,0 +1,31 @@
+/* Fuente Importada de Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+/* Body y Header */
+
+@media (orientation: portrait) {
+    html {
+      background-color: lightskyblue;
+    }
+  }
+  
+  @media (orientation: landscape) {
+    html {
+      background-color:lightgreen;
+    }
+  }
+
+  header {
+      background-color: salmon;
+      text-align: center;
+  }
+
+  span.header {
+    color:darkblue;
+    font-family: "Zhi Mang Xing"; 
+    font-size: 250%;
+    font-weight: bold;
+    text-shadow: gray 6px 0;
+    letter-spacing: 10px;
+  }
